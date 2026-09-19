@@ -1,8 +1,4 @@
 ## Hi, I'm Shama 💻
-<h3 align="left">Software Engineering student sharing my journey in the tech world!</h3>
-
-<br>
-
 <p align="left"> <img src="./assets/terminal.svg" width="900" alt="Animated terminal introducing Shama" /> </p>
 <h3> Programming Languages</h3>
 
