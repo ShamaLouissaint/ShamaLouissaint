@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="900"
+     height="300"
+     viewBox="0 0 900 300">
+
+<style>
+
+.terminal {
+  fill: #0d1117;
+}
+
+.text {
+  fill: #c9d1d9;
+  font-family: Consolas, Monaco, monospace;
+  font-size: 18px;
+}
+
+.prompt {
+  fill: #7ee787;
+}
+
+.command {
+  fill: #58a6ff;
+}
+
+.accent {
+  fill: #d2a8ff;
+}
+
+.muted {
+  fill: #8b949e;
+}
+
+/* =========================
+   CURSEUR CLIGNOTANT
+   ========================= */
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+
+  51%, 100% {
+    opacity: 0;
+  }
+}
+
+.cursor {
+  animation: blink 1s infinite;
+  fill: #58a6ff;
+}
+
+/* =========================
+   APPARITION DES LIGNES
+   ========================= */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.line1 {
+  animation: fadeIn 0.5s ease-out 0.2s both;
+}
+
+.line2 {
+  animation: fadeIn 0.5s ease-out 0.7s both;
+}
+
+.line3 {
+  animation: fadeIn 0.5s ease-out 1.2s both;
+}
+
+.line4 {
+  animation: fadeIn 0.5s ease-out 1.7s both;
+}
+
+.line5 {
+  animation: fadeIn 0.5s ease-out 2.2s both;
+}
+
+.line6 {
+  animation: fadeIn 0.5s ease-out 2.7s both;
+}
+
+</style>
+
+
+<!-- =========================
+     TERMINAL WINDOW
+     ========================= -->
+
+<rect
+  x="0"
+  y="0"
+  width="900"
+  height="300"
+  rx="14"
+  class="terminal"
+/>
+
+
+<!-- =========================
+     TERMINAL BUTTONS
+     ========================= -->
+
+<circle cx="25" cy="25" r="6" fill="#ff5f56"/>
+<circle cx="45" cy="25" r="6" fill="#ffbd2e"/>
+<circle cx="65" cy="25" r="6" fill="#27c93f"/>
+
+
+<!-- =========================
+     TERMINAL TITLE
+     ========================= -->
+
+<text
+  x="450"
+  y="30"
+  text-anchor="middle"
+  class="muted"
+  font-family="Consolas, Monaco, monospace"
+  font-size="13">
+  shama@github
+</text>
+
+
+<!-- =========================
+     LINE 1
+     ========================= -->
+
+<text x="30" y="75" class="text line1">
+
+  <tspan class="prompt">shama@github</tspan>
+
+  <tspan> ~ $ </tspan>
+
+  <tspan class="command">whoami</tspan>
+
+  <tspan class="cursor">_</tspan>
+
+</text>
+
+
+<!-- =========================
+     LINE 2
+     ========================= -->
+
+<text x="30" y="110" class="text line2">
+
+  <tspan class="accent">
+    Software Engineering Student
+  </tspan>
+
+</text>
+
+
+<!-- =========================
+     LINE 3
+     ========================= -->
+
+<text x="30" y="150" class="text line3">
+
+  <tspan class="prompt">shama@github</tspan>
+
+  <tspan> ~ $ </tspan>
+
+  <tspan class="command">skills</tspan>
+
+  <tspan class="cursor">_</tspan>
+
+</text>
+
+
+<!-- =========================
+     LINE 4
+     ========================= -->
+
+<text x="30" y="185" class="text line4">
+
+  <tspan class="muted">
+    Languages:
+  </tspan>
+
+  <tspan>
+    Java • C • C++ • C# • Python
+  </tspan>
+
+</text>
+
+
+<!-- =========================
+     LINE 5
+     ========================= -->
+
+<text x="30" y="220" class="text line5">
+
+  <tspan class="muted">
+    Web:
+  </tspan>
+
+  <tspan>
+    JavaScript • TypeScript • HTML • CSS
+  </tspan>
+
+</text>
+
+
+<!-- =========================
+     LINE 6
+     ========================= -->
+
+<text x="30" y="255" class="text line6">
+
+  <tspan class="prompt">shama@github</tspan>
+
+  <tspan> ~ $ </tspan>
+
+  <tspan class="command">_</tspan>
+
+  <tspan class="cursor">_</tspan>
+
+</text>
+
+</svg>
