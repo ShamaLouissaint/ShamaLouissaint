@@ -125,7 +125,7 @@
   class="muted"
   font-family="Consolas, Monaco, monospace"
   font-size="13">
-  shama@github
+  ShamaLouissaint@github
 </text>
 
 
@@ -135,7 +135,7 @@
 
 <text x="30" y="75" class="text line1">
 
-  <tspan class="prompt">shama@github</tspan>
+  <tspan class="prompt">ShamaLouissaint@github</tspan>
 
   <tspan> ~ $ </tspan>
 
@@ -165,7 +165,7 @@
 
 <text x="30" y="150" class="text line3">
 
-  <tspan class="prompt">shama@github</tspan>
+  <tspan class="prompt">ShamaLouissaint@github</tspan>
 
   <tspan> ~ $ </tspan>
 
@@ -216,7 +216,7 @@
 
 <text x="30" y="255" class="text line6">
 
-  <tspan class="prompt">shama@github</tspan>
+  <tspan class="prompt">ShamaLouissaint@github</tspan>
 
   <tspan> ~ $ </tspan>
 
