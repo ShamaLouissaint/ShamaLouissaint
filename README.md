@@ -1,7 +1,6 @@
 ## Hi, I'm Shama 💻
+<h3 align="center">Software Engineer student sharing my journey in the tech world!</h3>
 
-Software Engineer student sharing my journey in the tech world!
-<br>
 ## My Skills
 
 <h3> Programming Languages</h3>
@@ -33,4 +32,12 @@ Software Engineer student sharing my journey in the tech world!
 <h3>Design & Collaboration</h3>
 
 <p> <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=figma,discord" /> </a> </p>
+
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=shamalouissaint&label=Profile%20views&color=0e75b6&style=flat" alt="shamalouissaint" /> </p>
+
+
+
+
+
 
